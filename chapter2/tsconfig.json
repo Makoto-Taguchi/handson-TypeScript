@@ -8,5 +8,6 @@
     "moduleResolution": "node",
     "outDir": "./dist"
   },
-  "files": ["src/index.ts"]
+  "include": ["src/**/*"]
+  // "files": ["src/1.ts"]
 }
