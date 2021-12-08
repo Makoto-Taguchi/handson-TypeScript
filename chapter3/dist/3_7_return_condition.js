@@ -1,4 +1,4 @@
-function printPerson(id, name, age) {
+function printPerson7(id, name, age) {
     switch (typeof (id)) {
         case 'string':
             console.log('your id is "' + id + '".');
@@ -11,5 +11,5 @@ function printPerson(id, name, age) {
     }
     console.log('Name:' + name + '(' + age + ')');
 }
-printPerson(10, "taro", 39);
-printPerson('flower', "hanako", 28);
+printPerson7(10, "taro", 39);
+printPerson7('flower', "hanako", 28);

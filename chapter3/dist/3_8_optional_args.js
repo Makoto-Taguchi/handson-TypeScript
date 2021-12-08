@@ -1,8 +1,8 @@
-function printPerson(name, age) {
+function printPerson8(name, age) {
     var nameval = name ? name : "no-name";
     var ageval = age ? String(age) : '-';
     console.log('Name:' + nameval + '(' + ageval + ')');
 }
-printPerson("taro", 39);
-printPerson("hanako");
-printPerson();
+printPerson8("taro", 39);
+printPerson8("hanako");
+printPerson8();
