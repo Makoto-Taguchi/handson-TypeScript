@@ -5,8 +5,8 @@ var sum = function () {
     }
     var total = 0;
     for (var _a = 0, data_1 = data; _a < data_1.length; _a++) {
-        var i = data_1[_a];
-        total += i;
+        var i_1 = data_1[_a];
+        total += i_1;
     }
     return total;
 };

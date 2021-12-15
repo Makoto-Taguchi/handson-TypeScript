@@ -1,7 +1,7 @@
 function total(max) {
     var num = 0;
-    for (var i = 1; i <= max; i++) {
-        num += i;
+    for (var i_1 = 1; i_1 <= max; i_1++) {
+        num += i_1;
     }
     return num;
 }

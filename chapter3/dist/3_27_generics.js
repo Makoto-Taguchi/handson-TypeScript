@@ -5,7 +5,7 @@ function getRnd27(values) {
 var data1 = [0, 2, 4, 6, 8, 10];
 var data2 = ['グー', 'チョキ', 'パー'];
 var data3 = [true, false];
-for (var i = 0; i < 10; i++) {
+for (var i_1 = 0; i_1 < 10; i_1++) {
     var re1 = getRnd27(data1);
     var re2 = getRnd27(data2);
     var re3 = getRnd27(data3);

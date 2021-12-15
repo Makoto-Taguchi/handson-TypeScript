@@ -3,8 +3,8 @@ var f24 = function (n) {
         return [n, Error("負の値です")];
     }
     var total = 0;
-    for (var i = 1; i <= n; i++) {
-        total += i;
+    for (var i_1 = 1; i_1 <= n; i_1++) {
+        total += i_1;
     }
     return [total];
 };

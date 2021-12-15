@@ -1,8 +1,8 @@
 var f23 = function (arr) {
     var res = 'Array: ';
     for (var _i = 0, arr_1 = arr; _i < arr_1.length; _i++) {
-        var i = arr_1[_i];
-        res += String(i) + '\t';
+        var i_1 = arr_1[_i];
+        res += String(i_1) + '\t';
     }
     console.log(res);
 };

@@ -5,8 +5,8 @@ var f17 = function (n, f17arg) {
 var double = function (n) { return n * 2; };
 var total17 = function (n) {
     var total = 0;
-    for (var i = 1; i <= n; i++)
-        total += i;
+    for (var i_1 = 1; i_1 <= n; i_1++)
+        total += i_1;
     return total;
 };
 var num = 100;

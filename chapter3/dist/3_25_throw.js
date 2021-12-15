@@ -3,7 +3,7 @@ var f25 = function (n) {
         throw Error("負の数です");
     }
     var total = 0;
-    for (var i = 1; i <= n; i++) {
+    for (var i_1 = 1; i_1 <= n; i_1++) {
         total += 1;
     }
     return total;

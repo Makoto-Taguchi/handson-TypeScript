@@ -26,16 +26,16 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 function fibo(n) {
-    var n1, n2, i, n3;
+    var n1, n2, i_1, n3;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
                 n1 = 0;
                 n2 = 1;
-                i = 0;
+                i_1 = 0;
                 _a.label = 1;
             case 1:
-                if (!(i <= n)) return [3 /*break*/, 4];
+                if (!(i_1 <= n)) return [3 /*break*/, 4];
                 return [4 /*yield*/, n1];
             case 2:
                 _a.sent();
@@ -44,7 +44,7 @@ function fibo(n) {
                 n2 = n3;
                 _a.label = 3;
             case 3:
-                i++;
+                i_1++;
                 return [3 /*break*/, 1];
             case 4: return [2 /*return*/];
         }
@@ -52,7 +52,7 @@ function fibo(n) {
 }
 var n = 10;
 var fb = fibo(n);
-for (var i = 0; i <= n + 3; i++) {
+for (var i_2 = 0; i_2 <= n + 3; i_2++) {
     var ob = fb.next();
     console.log(ob.value);
 }

@@ -2,8 +2,8 @@ var f = function (n, d) {
     console.log("start:" + n);
     return new Promise(function (f) {
         var total = 0;
-        for (var i = 1; i <= n; i++)
-            total += i;
+        for (var i_1 = 1; i_1 <= n; i_1++)
+            total += i_1;
         setTimeout(function () {
             f(total);
         }, d);
