@@ -9,5 +9,5 @@ function getData17(url) {
         console.log(res.data);
     });
 }
-var url = 'https://tuyano-dummy-data.firebaseio.com/message.json';
-getData17(url);
+var url17 = 'https://tuyano-dummy-data.firebaseio.com/message.json';
+getData17(url17);

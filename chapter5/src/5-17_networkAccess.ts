@@ -11,5 +11,5 @@ function getData17(url: string) {
     })
 }
 
-const url = 'https://tuyano-dummy-data.firebaseio.com/message.json'
-getData17(url)
+const url17 = 'https://tuyano-dummy-data.firebaseio.com/message.json'
+getData17(url17)
